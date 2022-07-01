@@ -1,0 +1,130 @@
+*{box-sizing: border-box;
+
+
+}
+
+body{
+margin: 0;
+background-color: rgb(175, 196, 216);
+
+}
+
+header{
+text-align: center;
+background-color:rgb(175, 196, 216);
+
+
+}
+
+nav ul{
+list-style-type: none;
+background-color:rgb(197, 214, 233) ;
+overflow: hidden;
+margin: 0;
+padding: 0;
+}
+nav a{
+color: rgb(0, 0, 0);
+text-decoration: none;
+padding: 25px;
+display: block;
+
+}
+nav  li {
+float: left;
+
+}
+nav a:hover{
+    background-color:rgb(142, 140, 255) ;
+    color: rgb(255, 249, 249);
+}
+
+
+h1{text-align: center;
+color: black;
+
+}
+
+img{
+    height: 290px;
+}
+
+.barra{
+    
+   display: table;
+    }
+
+section{
+        float: left;
+        width: 67%;
+        background-color: rgb(241, 234, 234);
+        padding: 50px;
+ }
+        
+ aside{
+        
+ float: left;
+ width: 33%;
+  background-color:rgb(175, 196, 216) ;
+  padding-left: 30px;
+        
+ }
+
+p{
+
+
+display: inline-block;
+
+vertical-align: top;
+
+}
+
+
+h2{
+    text-align: center;
+}
+
+aside img{
+
+    width: 350px;
+    height: 290px;
+}
+
+
+a{
+color:black;
+
+}
+
+aside a:hover{
+    background-color: black;
+    color: white;
+}
+ 
+footer{
+    padding: 40px;
+    background:rgb(197, 214, 233);
+    color: black;
+    margin-top: 20px;
+    display: table;
+    width: 100%;
+    
+}
+footer dl, footer h1{
+
+    display:table-cell;
+    vertical-align: middle;
+}
+footer dt{
+    font-weight: bold;
+}
+
+footer dd{
+    margin-left: 0;
+}
+
+footer h1{
+    text-align: right;
+    font-weight: bold;
+    font-size: 50px;
+}
